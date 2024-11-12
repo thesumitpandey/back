@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow requests
+  origin: 'https://front-6jk0.onrender.com', // Allow requests
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization', 'auth-token'], 
 }));
